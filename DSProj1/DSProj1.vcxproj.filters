@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GameOver">
+      <UniqueIdentifier>{d9c69b66-358c-4635-b688-27087c0b1c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\GamePlayer">
+      <UniqueIdentifier>{3ce8b223-986a-4ee1-9cc7-16ced7aaa221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Title">
+      <UniqueIdentifier>{897330c1-3fe8-49a6-8a5b-9c674b238127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{41e801ef-362e-4a82-9292-d1b7ce12e6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GameOver">
+      <UniqueIdentifier>{0c0f6812-71ef-438f-9db0-fa10b4468c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\GamePlay">
+      <UniqueIdentifier>{7949a03c-0ab5-4d73-a6c5-3183d348944f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Title">
+      <UniqueIdentifier>{12a3e8cc-2a65-455e-af6a-042b50ccb0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{07d11f58-7ffb-4223-9eaa-1fa2ca080fd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerColor.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GamePlay.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterManager.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>ソース ファイル\GamePlay</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerColor.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="GamePlay.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterManager.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>ヘッダー ファイル\GamePlayer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
